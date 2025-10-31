@@ -1,0 +1,2 @@
+# partforiya-shaxsiy
+shaxsiy sahifa

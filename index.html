@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kankulayator</title>
+    <style>
+        .canculator {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 0 auto;
+
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+            background-color: rgb(38, 41, 41);
+            gap: 10px;
+        }
+
+        .buttons div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        button {
+            width: 55px;
+            height: 55px;
+            border-radius: 10px;
+            color: aliceblue;
+            font-size: 20px;
+
+        }
+        button:hover{
+            opacity: 0.5;
+        }
+
+        .display {
+
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+        }
+
+        .display input {
+            height: 30px;
+            width: 100%;
+            font-size: 20px;
+
+        }
+
+        .teng {
+            height: 120px;
+            background-color: rgb(172, 116, 48);
+        }
+
+        .clear {
+            background-color: brown;
+        }
+
+        .qator {
+            background-color: cadetblue;
+        }
+
+        .son {
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="canculator">
+        <div class="display">
+            <input type="text" id="display" >
+        </div>
+        <div class="buttons">
+            <div class="ustun">
+                <button class="clear">AC</button>
+                <button class="son">7</button>
+                <button class="son">4</button>
+                <button class="son">1</button>
+                <button class="son">0</button>
+            </div>
+            <div class="ustun">
+                <button class="qator">%</button>
+                <button class="son">8</button>
+                <button class="son">5</button>
+                <button class="son">2</button>
+                <button class="qator">,</button>
+            </div>
+            <div class="ustun">
+                <button class="qator">X</button>
+                <button class="son">9</button>
+                <button class="son">6</button>
+                <button class="son">3</button>
+                <button class="qator">+/-</button>
+            </div>
+            <div class="ustun">
+                <button class="qator">/</button>
+                <button class="qator">-</button>
+                <button class="qator">+</button>
+                <button class="teng">=</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
